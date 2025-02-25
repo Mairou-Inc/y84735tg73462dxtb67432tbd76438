@@ -1,0 +1,158 @@
+@use 'vars' as *;
+
+
+
+
+.txt-def {
+    color: $txt_clr;
+}
+
+.txt_mainclr {
+    color: $main_clr;
+}
+
+.txt_grey {
+    color: $grey1;
+}
+
+.txt-black-grey {
+    color: $grey2;
+}
+
+.txt_white {
+    color: white;
+}
+
+.txt_black {
+    color: black;
+}
+
+.txt_green {
+    color: rgb(0, 230, 0);
+}
+
+.txt-light-red {
+    color: rgb(230, 0, 0);
+}
+
+.txt-red {
+    color: rgb(255, 0, 0);
+}
+
+.txt-pink {
+    color: rgb(255, 0, 255);
+}
+
+.txt_flash_main_clr {
+    animation: flash_main_clr 0.5s infinite alternate;
+}
+
+@keyframes flash_main_clr {
+    0% {
+        color: $main_clr;
+    }
+
+    100% {
+        color: transparent;
+    }
+}
+
+@keyframes glow-red {
+    0% {
+        text-shadow: rgb(255, 0, 0) 2px 0 5px;
+    }
+
+    100% {
+        text-shadow: rgb(255, 0, 0) 1px 0 15px;
+    }
+}
+
+.txt-glow-red {
+    color: rgb(255, 0, 0);
+    animation: glow-red 0.5s ease-in-out infinite alternate;
+}
+
+/* =========================================== */
+
+.bg-green {
+    background-color: $main_clr;
+    color: black;
+}
+
+.bg-black_grey {
+    background-color: $grey2;
+}
+
+/* =========================================== */
+
+.bg_grey {
+    background-color: $grey2;
+    padding: $padding;
+}
+
+.bg_green {
+    background-color: $green;
+    color: black;
+    padding: 0.2rem 0.4rem;
+    max-width: max-content;
+}
+
+/* =========================================== */
+
+.border-grey {
+    border: 1px solid $grey2;
+    padding: 0.5rem;
+}
+
+/* .border-grey:hover{
+    border: 1px solid white;
+  } */
+
+/* =========================================== */
+.no-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* =========================================== */
+
+.gap2 {
+    display: grid;
+    gap: 0.5rem;
+}
+
+.gap4 {
+    display: grid;
+    gap: 1rem;
+}
+
+.gap6 {
+    display: grid;
+    gap: 1.5rem;
+}
+
+/* =========================================== */
+
+.absolute_center_page {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: 20;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    -ms-overflow-style: none;
+    /* IE и Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    display: none;
+}

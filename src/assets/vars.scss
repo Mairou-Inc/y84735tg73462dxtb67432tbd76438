@@ -1,0 +1,61 @@
+$main_clr: gold;
+$bg_clr: rgb(0, 0, 0);
+$linl_clr: rgb(0, 255, 255);
+$font_size: rgb(255, 255, 255);
+$txt_clr: rgb(255, 255, 255);
+
+$green: rgb(0, 200, 0);
+$grey1: rgb(130, 130, 130);
+$grey2: rgb(15, 15, 15);
+
+$btn_clr: rgb(15, 15, 15);
+$btn_clr_active: rgb(255, 255, 255);
+
+$input_bg: rgb(0, 0, 0);
+$input_clr: rgb(100, 100, 100);
+$input_border: 1px solid rgb(33, 33, 33);
+$input_focus_border: none;
+
+$padding: 0.4rem;
+
+$txt_size: 0.9rem;
+$app_font_weight: 470;
+$app_letter_spacing: 0.5px;
+$app_word_spacing: 0.5px;
+
+$svg_size: 1.5rem;
+
+$border_radius: 3px;
+$app_max_width: 1000px;
+
+:root {
+    --main_clr: gold;
+    --bg_clr: rgb(0, 0, 0);
+    --linl_clr: rgb(0, 255, 255);
+    --font_size: rgb(255, 255, 255);
+    --txt_clr: rgb(255, 255, 255);
+
+    --green: rgb(0, 200, 0);
+    --grey1: rgb(130, 130, 130);
+    --grey2: rgb(15, 15, 15);
+
+    --btn_clr: rgb(15, 15, 15);
+    --btn_clr_active: rgb(255, 255, 255);
+
+    --input_bg: rgb(0, 0, 0);
+    --input_clr: rgb(100, 100, 100);
+    --input_border: 1px solid rgb(33, 33, 33);
+    --input_focus_border: none;
+
+    --padding: 0.5rem;
+
+    --txt_size: 0.9rem;
+    --app_font_weight: 470;
+    --app_letter_spacing: 0.5px;
+    --app_word_spacing: 0.5px;
+
+    --svg_size: 1.5rem;
+
+    --border_radius: 3px;
+    --app_max_width: 1000px;
+}
