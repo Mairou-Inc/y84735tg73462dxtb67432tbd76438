@@ -1,11 +1,14 @@
 {
   "compilerOptions": {
+    "composite": false,
+    "incremental": false,
+    "noEmit": true,
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "node",
     "strict": true,
     "jsx": "preserve",
-    "sourceMap": true,
+    "sourceMap": false,
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,

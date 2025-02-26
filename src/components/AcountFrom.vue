@@ -1,7 +1,5 @@
 <script setup lang="ts">
-import { computed } from 'vue'
 import { useAccountsStore } from '@/account'
-import Dropdown from '@/components/Dropdown.vue'
 
 const s = useAccountsStore()
 

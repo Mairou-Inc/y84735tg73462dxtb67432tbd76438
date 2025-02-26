@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://uxdbit.com/sitemap.xml
